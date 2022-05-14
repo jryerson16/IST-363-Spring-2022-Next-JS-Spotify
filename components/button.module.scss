@@ -1,0 +1,21 @@
+.btn {
+    background-color: limegreen;
+    color: white;
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .5rem ;
+    a{
+        color:white
+    }
+    &.primary {
+        background-color: limegreen;
+    }
+    &.secondary{
+        background-color: white;
+        broder: 1 px;
+        color: limegreen;
+    }
+}
